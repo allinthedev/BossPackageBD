@@ -23,8 +23,9 @@ log = logging.getLogger("ballsdex.packages.boss")
 
 # Configuration constants
 SPECIAL_BUFFS = {
+    "⚡": (500, 500)   # Haki Buff
     "✨": (1000,1000), # Shiny Buffs
-    "🌌": (2500,2500), # Mythical Buffs
+    "🔮": (1500,1500), # Mythical Buffs
 } # Special buffs
 # Emoji: (ATK, HP)
 MAXSTATS = [12000,12000] # Max stats a card is limited to (before buffs)
