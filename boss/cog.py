@@ -23,7 +23,7 @@ log = logging.getLogger("ballsdex.packages.boss")
 
 # Configuration constants
 SPECIAL_BUFFS = {
-    "⚡": (500, 500),  # Haki Buff
+    "⚡": (500,500),   # Haki Buff
     "✨": (1000,1000), # Shiny Buffs
     "🔮": (1500,1500), # Mythical Buffs
 } # Special buffs
